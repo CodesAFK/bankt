@@ -14,6 +14,7 @@ import { DepositsComponent } from './deposits/deposits.component';
 import { TransactionSuccessComponent } from './transaction-success/transaction-success.component';
 import { PendingTransactionsComponent } from './pending-transactions/pending-transactions.component';
 import { AdminAccountsComponent } from './admin/admin-accounts/admin-accounts.component';
+import { AdminDepositsComponent } from './admin/admin-deposits/admin-deposits.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { AdminAccountsComponent } from './admin/admin-accounts/admin-accounts.co
     DepositsComponent,
     TransactionSuccessComponent,
     PendingTransactionsComponent,
-    AdminAccountsComponent
+    AdminAccountsComponent,
+    AdminDepositsComponent
   ],
   imports: [
     BrowserModule,
