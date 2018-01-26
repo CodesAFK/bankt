@@ -6,12 +6,14 @@ import { AngularFireDatabaseModule} from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BsNavbarComponent
+    BsNavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
