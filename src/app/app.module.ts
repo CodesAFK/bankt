@@ -7,13 +7,15 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { HomeComponent } from './home/home.component';
+import { AccountsComponent } from './accounts/accounts.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BsNavbarComponent,
-    HomeComponent
+    HomeComponent,
+    AccountsComponent
   ],
   imports: [
     BrowserModule,
