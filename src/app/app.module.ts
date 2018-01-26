@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AccountsComponent } from './accounts/accounts.component';
+import { TransactionsComponent } from './transactions/transactions.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AccountsComponent } from './accounts/accounts.component';
     AppComponent,
     BsNavbarComponent,
     HomeComponent,
-    AccountsComponent
+    AccountsComponent,
+    TransactionsComponent
   ],
   imports: [
     BrowserModule,
