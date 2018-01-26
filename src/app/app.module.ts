@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { TransactionsComponent } from './transactions/transactions.component';
 import { WithdrawalsComponent } from './withdrawals/withdrawals.component';
+import { DepositsComponent } from './deposits/deposits.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { WithdrawalsComponent } from './withdrawals/withdrawals.component';
     HomeComponent,
     AccountsComponent,
     TransactionsComponent,
-    WithdrawalsComponent
+    WithdrawalsComponent,
+    DepositsComponent
   ],
   imports: [
     BrowserModule,
