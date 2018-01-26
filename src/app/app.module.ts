@@ -11,6 +11,7 @@ import { AccountsComponent } from './accounts/accounts.component';
 import { TransactionsComponent } from './transactions/transactions.component';
 import { WithdrawalsComponent } from './withdrawals/withdrawals.component';
 import { DepositsComponent } from './deposits/deposits.component';
+import { TransactionSuccessComponent } from './transaction-success/transaction-success.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DepositsComponent } from './deposits/deposits.component';
     AccountsComponent,
     TransactionsComponent,
     WithdrawalsComponent,
-    DepositsComponent
+    DepositsComponent,
+    TransactionSuccessComponent
   ],
   imports: [
     BrowserModule,
