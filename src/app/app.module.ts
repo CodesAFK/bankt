@@ -9,6 +9,7 @@ import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { TransactionsComponent } from './transactions/transactions.component';
+import { WithdrawalsComponent } from './withdrawals/withdrawals.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { TransactionsComponent } from './transactions/transactions.component';
     BsNavbarComponent,
     HomeComponent,
     AccountsComponent,
-    TransactionsComponent
+    TransactionsComponent,
+    WithdrawalsComponent
   ],
   imports: [
     BrowserModule,
