@@ -16,6 +16,7 @@ import { PendingTransactionsComponent } from './pending-transactions/pending-tra
 import { AdminAccountsComponent } from './admin/admin-accounts/admin-accounts.component';
 import { AdminDepositsComponent } from './admin/admin-deposits/admin-deposits.component';
 import { AdminWithdrawalsComponent } from './admin/admin-withdrawals/admin-withdrawals.component';
+import { AdminTransactionsComponent } from './admin/admin-transactions/admin-transactions.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { AdminWithdrawalsComponent } from './admin/admin-withdrawals/admin-withd
     PendingTransactionsComponent,
     AdminAccountsComponent,
     AdminDepositsComponent,
-    AdminWithdrawalsComponent
+    AdminWithdrawalsComponent,
+    AdminTransactionsComponent
   ],
   imports: [
     BrowserModule,
