@@ -21,20 +21,20 @@ import { AdminPendingComponent } from './admin/admin-pending/admin-pending.compo
 import { RouterModule, Routes} from '@angular/router';
 import { LoginComponent } from './login/login.component';
 
-const appRoutes: Routes=[
+const appRoutes: Routes = [
   {path: '', component: HomeComponent },
-  {path: '/accounts', component: AccountsComponent },
-  {path: '/transactions', component: TransactionsComponent },
-  {path: '/withdrawals', component: WithdrawalsComponent },
-  {path: '/deposits', component: DepositsComponent },
-  {path: '/transaction-success', component: TransactionSuccessComponent },
-  {path: '/pending-transaction', component: PendingTransactionsComponent },
-  {path: '/login', component: LoginComponent },
-  {path: '/admin/accounts', component: AdminAccountsComponent },
-  {path: '/admin/deposits', component: AdminDepositsComponent },
-  {path: '/admin/withdrawals', component: AdminWithdrawalsComponent },
-  {path: '/admin/transaction', component: AdminTransactionsComponent },
-  {path: '/admin/pending', component: AdminPendingComponent }
+  {path: 'accounts', component: AccountsComponent },
+  {path: 'transactions', component: TransactionsComponent },
+  {path: 'withdrawals', component: WithdrawalsComponent },
+  {path: 'deposits', component: DepositsComponent },
+  {path: 'transaction-success', component: TransactionSuccessComponent },
+  {path: 'pending-transaction', component: PendingTransactionsComponent },
+  {path: 'login', component: LoginComponent },
+  {path: 'admin/accounts', component: AdminAccountsComponent },
+  {path: 'admin/deposits', component: AdminDepositsComponent },
+  {path: 'admin/withdrawals', component: AdminWithdrawalsComponent },
+  {path: 'admin/transaction', component: AdminTransactionsComponent },
+  {path: 'admin/pending', component: AdminPendingComponent }
 ];
 
 
