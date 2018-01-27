@@ -22,7 +22,6 @@ import { RouterModule, Routes} from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { MyAccountsComponent } from './my-accounts/my-accounts.component';
-import { LogoutComponent } from './logout/logout.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent },
@@ -60,7 +59,6 @@ const appRoutes: Routes = [
     AdminPendingComponent,
     LoginComponent,
     MyAccountsComponent,
-    LogoutComponent
   ],
   imports: [
     BrowserModule,
