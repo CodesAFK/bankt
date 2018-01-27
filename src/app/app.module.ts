@@ -20,6 +20,7 @@ import { AdminTransactionsComponent } from './admin/admin-transactions/admin-tra
 import { AdminPendingComponent } from './admin/admin-pending/admin-pending.component';
 import { RouterModule, Routes} from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent },
@@ -61,6 +62,7 @@ const appRoutes: Routes = [
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
+    NgbModule.forRoot(),
     RouterModule.forRoot(
       appRoutes
     )
