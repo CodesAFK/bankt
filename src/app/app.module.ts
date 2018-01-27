@@ -18,6 +18,23 @@ import { AdminDepositsComponent } from './admin/admin-deposits/admin-deposits.co
 import { AdminWithdrawalsComponent } from './admin/admin-withdrawals/admin-withdrawals.component';
 import { AdminTransactionsComponent } from './admin/admin-transactions/admin-transactions.component';
 import { AdminPendingComponent } from './admin/admin-pending/admin-pending.component';
+import { RouterModule, Routes} from '@angular/router';
+import { LoginComponent } from './login/login.component';
+
+const appRoutes: Routes=[
+  {path: '', component: HomeComponent },
+  {path: '/accounts', component: AccountsComponent },
+  {path: '/transactions', component: TransactionsComponent },
+  {path: '/withdrawals', component: WithdrawalsComponent },
+  {path: '/deposits', component: DepositsComponent },
+  {path: '/transaction-success', component: TransactionSuccessComponent },
+  {path: '/pending-transaction', component: PendingTransactionsComponent },
+  {path: '/admin/', component: HomeComponent },
+  {path: '', component: HomeComponent },
+  {path: '', component: HomeComponent },
+  {path: '', component: HomeComponent },
+  {path: '', component: HomeComponent },
+]
 
 
 @NgModule({
@@ -35,7 +52,8 @@ import { AdminPendingComponent } from './admin/admin-pending/admin-pending.compo
     AdminDepositsComponent,
     AdminWithdrawalsComponent,
     AdminTransactionsComponent,
-    AdminPendingComponent
+    AdminPendingComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
