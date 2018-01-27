@@ -21,6 +21,7 @@ import { AdminPendingComponent } from './admin/admin-pending/admin-pending.compo
 import { RouterModule, Routes} from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { MyAccountsComponent } from './my-accounts/my-accounts.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent },
@@ -30,6 +31,7 @@ const appRoutes: Routes = [
   {path: 'deposits', component: DepositsComponent },
   {path: 'transaction-success', component: TransactionSuccessComponent },
   {path: 'pending-transaction', component: PendingTransactionsComponent },
+  {path: 'my/accounts', component: MyAccountsComponent },
   {path: 'login', component: LoginComponent },
   {path: 'admin/accounts', component: AdminAccountsComponent },
   {path: 'admin/deposits', component: AdminDepositsComponent },
@@ -55,7 +57,8 @@ const appRoutes: Routes = [
     AdminWithdrawalsComponent,
     AdminTransactionsComponent,
     AdminPendingComponent,
-    LoginComponent
+    LoginComponent,
+    MyAccountsComponent
   ],
   imports: [
     BrowserModule,
