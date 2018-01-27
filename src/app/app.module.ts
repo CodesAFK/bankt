@@ -29,12 +29,13 @@ const appRoutes: Routes=[
   {path: '/deposits', component: DepositsComponent },
   {path: '/transaction-success', component: TransactionSuccessComponent },
   {path: '/pending-transaction', component: PendingTransactionsComponent },
-  {path: '/admin/', component: HomeComponent },
-  {path: '', component: HomeComponent },
-  {path: '', component: HomeComponent },
-  {path: '', component: HomeComponent },
-  {path: '', component: HomeComponent },
-]
+  {path: '/login', component: LoginComponent },
+  {path: '/admin/accounts', component: AdminAccountsComponent },
+  {path: '/admin/deposits', component: AdminDepositsComponent },
+  {path: '/admin/withdrawals', component: AdminWithdrawalsComponent },
+  {path: '/admin/transaction', component: AdminTransactionsComponent },
+  {path: '/admin/pending', component: AdminPendingComponent }
+];
 
 
 @NgModule({
@@ -59,7 +60,10 @@ const appRoutes: Routes=[
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    RouterModule.forRoot(
+      appRoutes
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
